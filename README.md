@@ -5,18 +5,18 @@ The game is a transportation puzzle, where the player has to push all boxes in t
 ## Dependencies
 To run this game you'll need python3 and pygame installed
 
-## How to run
 
+## 0.  Installation
+1. Required Libraries：`pygame`，`sys`，`numpy`，`pytest`.
 
-### Installation
-
-### Via PIP
+2. Download the project to your local machine and execute the program
 ```bash
-pip install python3
+git clone git@github.com:chiweiihsu/group17_project.git
+$ python3 Sokoban.py
 
 ```
 
-```bash
-python3 Sokoban.py
+## 2 Game Environment
 
-```
+### 2.1 Room Elements
+Every room consists of five main elements: walls, floor, boxes, box targets, and a player. They might have different states whether they overlap with a box target or not. 
