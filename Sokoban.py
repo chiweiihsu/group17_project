@@ -49,9 +49,9 @@ def main():
     pygame.init()
     pygame.key.set_repeat(100, 100)
     pygame.display.set_caption("Sokoban Game")
-    pygame.mixer.music.load("assets/music/0.mp3") # BGM
-    pygame.mixer.music.play(-1, 0.0) # repeat the music
-    pygame.mixer.music.set_volume(0.5) 
+    # pygame.mixer.music.load("assets/music/0.mp3") # BGM
+    # pygame.mixer.music.play(-1, 0.0) # repeat the music
+    # pygame.mixer.music.set_volume(0.5) 
 
     window = pygame.display.set_mode((SOKOBAN.WINDOW_WIDTH, SOKOBAN.WINDOW_HEIGHT))
     menu = Menu()
