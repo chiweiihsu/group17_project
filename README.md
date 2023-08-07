@@ -7,8 +7,7 @@ The game is a transportation puzzle, where the player has to push all boxes in t
 ## Getting Started
 
 ### Ubuntu
-Download and run the game
-&nbsp; git clone the game:
+git clone the game:
 ```
 $ cd ~
 $ git clone git@github.com:ARG-NCTU/oop-proj-17.git
@@ -18,14 +17,14 @@ Run docker
 $ cd oop-proj-17
 $ source docker_run.sh
 ```
-Start hte game
+Start the game
 ```
 $ python3 Sokoban.py
 ```
 ### Windows
 Install Anaconda from following site.
 https://docs.anaconda.com/free/anaconda/install/windows/
-#### Download oop-proj-21
+#### Download oop-proj-17
 Download oop-proj-17 as a zip, and unzip.
 #### activate base env, and start the game
 You can change "oop_env" to what ever the name you like.
