@@ -31,8 +31,8 @@ You can change "oop_env" to what ever the name you like.
 ```
 $ conda create --name oop_env python=3.8.10
 $ conda activate oop_env
-$ pip3 install pygame
-$ pip3 install numpy
+$ conda install -c conda-forge pygame
+$ conda install -c conda-forge numpy
 ```
 cd to your oop-proj-proj-17 dir location, and run the game.
 ```
